@@ -101,9 +101,11 @@ li {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    justify-content: center;
     
 }
+
+
 
 iframe { 
     padding: 5px;
@@ -116,7 +118,18 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.fig {
+    font-family: fantasy;
+    justify-content: center;
+   
 }
 
 /* section 5 media items */
