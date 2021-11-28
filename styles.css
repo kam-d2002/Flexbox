@@ -35,13 +35,27 @@ ul{
     margin-left: auto;
 }
 
-li { 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid limegreen;
-    border-radius: 10px;
-    background-color: aliceblue;
+button { 
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdena, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding:10px;
+    margin: 2px;
+    transition-duration: .4s;
+
+}
+
+button:hover {
+    background-color: limegreen;
+    color: white;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+    
 }
 
 /* section one flex grow and shrink */
