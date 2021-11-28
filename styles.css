@@ -2,13 +2,14 @@
 
 
 body{
-    background-color: limegreen;
+    background-color: #f2f2f2;
+
 }
 
 /* header sytles */
 
 header {
-    background-color: hotpink;
+    background-color: #f29f05;
     padding: 10px 0px 10px 0px;
     
     
@@ -67,7 +68,7 @@ button:active {
 }
 
 .button-one-section {
-    background-colour: cornflowerblue;
+    background-colour: #bf0426;
     padding: 20px 0px;
     display: flex;
     justify-content: center;
@@ -114,7 +115,7 @@ button:active {
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color: #bf0426;
     height: 700px;
     display: flex;
     align-items: center;
@@ -125,7 +126,7 @@ button:active {
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color: #d95a11;
     height: 800px;
     display: flex;
     flex-wrap: wrap;
@@ -146,7 +147,7 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color: #bf0426;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
@@ -165,14 +166,14 @@ iframe {
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
+    background-color: #d95a11;
 
 }
 
 /* footer goes here */
 
 footer {
-    background-color: rebeccapurple;
+    background-color: #f29f05;
     height: 30px;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
